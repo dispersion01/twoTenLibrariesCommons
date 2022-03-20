@@ -16,7 +16,9 @@ public class DataEmployee {
         dataOfWEmployee[7] = new Employee(1, StringUtils.upperCase("Sidorov"), 04, 160_000);
         dataOfWEmployee[8] = new Employee(1, StringUtils.upperCase("Orlov"), 02, 210_000);
         dataOfWEmployee[9] = new Employee(1, StringUtils.upperCase("Romanova"), 01, 300_000);
-        
+
+
+
         dataOfWEmployee.toString();
         System.out.println("Метод 1. Вывод всех сотрудников:");
         allEmployee(dataOfWEmployee);

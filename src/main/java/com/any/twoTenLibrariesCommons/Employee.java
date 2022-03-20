@@ -1,4 +1,8 @@
 package com.any.twoTenLibrariesCommons;
+import org.apache.commons.lang3.StringUtils;
+
+import static org.apache.commons.lang3.StringUtils.capitalize;
+import static org.apache.commons.lang3.StringUtils.contains;
 
 public class Employee {
     private String familyName;
@@ -16,7 +20,7 @@ public class Employee {
 
 
     public String getFamilyName() {
-        return familyName;
+        return capitalize(familyName);
     }
 
     public int getDepartment() {
